@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<decorators defaultdir="/WEB-INF/ftl/decorators">
+	<excludes>
+		<pattern>/css/*</pattern>
+		<pattern>/images/*</pattern>
+		<pattern>/js/*</pattern>
+		<pattern>/ajax/*</pattern>
+		<pattern>/menu/*</pattern>
+		<pattern>/*.jsp</pattern>
+	</excludes>
+	<decorator name="main_input" page="main_input.ftl">
+		<pattern>*input.htm*</pattern>
+	</decorator>
+	<decorator name="main_list" page="main_list.ftl">
+		<pattern>*list.htm*</pattern>
+	</decorator>
+</decorators>
+
